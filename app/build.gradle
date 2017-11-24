@@ -40,6 +40,7 @@ dependencies {
     compile 'com.intuit.sdp:sdp-android:1.0.4'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile project(path: ':facebook')
+    //compile project(path: ':facebook')
+    compile 'com.facebook.android:facebook-android-sdk:4.25.0'
 }
 apply plugin: 'com.google.gms.google-services'
