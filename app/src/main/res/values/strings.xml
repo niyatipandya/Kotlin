@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">My Application</string>
+
+    <string name="app_name">Kotlin</string>
+    <string name="facebook_app_id">552142868461692</string>
+    <string name="fb_login_protocol_scheme">fb552142868461692</string>
+    <string name="forgot_password"><b>Forgot your password?</b></string>
+    <string name="forgot_password2">Please entre the email you signed up with,\n we will send you a link to change your \npassword.</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="send">Send</string>
+    <string name="successfully_posted_post">Successfully Posted Post</string>
+    <string name="skip">SKIP</string>
+    <string name="ok">OK</string>
+    <string name="error_to_login_facebook">Error to login facebook</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">LOGIN</string>
+    <string name="already_dont_have_ac"><b>I don\'t have an account ></b></string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="password">Password</string>
+    <string name="connect_with_facebook">Connect with facebook</string>
+    <!--Permission Message-->
+    <string name="permission_enable_path">Enable permissions from\nSettings > Apps > Kindling > Permissions</string>
+    <string name="permission_location_rationale">Location permission is needed to access location.</string>
+    <string name="permission_location_denied">Location permission denied. Please consider granting it in order to access location.</string>
+    <string name="permission_storage_rationale">Storage permission is needed to access gallery.</string>
+    <string name="permission_storage_denied">Storage permission denied. Please consider granting it in order to access gallery.</string>
+    <string name="permission_phone_state_rationale">Phone permission is needed to access device information.</string>
+    <string name="permission_phone_state_denied">Phone denied. Please consider granting it in order to device information.</string>
+    <string name="permission_audio_rationale">Microphone permission is needed to access microphone.</string>
+    <string name="permission_audio_denied">Microphone permission denied. Please consider granting it in order to access microphone.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>
