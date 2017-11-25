@@ -42,5 +42,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     //compile project(path: ':facebook')
     compile 'com.facebook.android:facebook-android-sdk:4.25.0'
+
+    compile 'io.reactivex:rxjava:1.1.9'
+    compile 'com.loopj.android:android-async-http:1.4.9'
 }
 apply plugin: 'com.google.gms.google-services'

@@ -19,6 +19,8 @@
     <string name="login_to_your_account">Login to your account</string>
     <string name="password">Password</string>
     <string name="connect_with_facebook">Connect with facebook</string>
+    <string name="something_wrong_happened">Oops! Something wrong happened</string>
+
     <!--Permission Message-->
     <string name="permission_enable_path">Enable permissions from\nSettings > Apps > Kindling > Permissions</string>
     <string name="permission_location_rationale">Location permission is needed to access location.</string>

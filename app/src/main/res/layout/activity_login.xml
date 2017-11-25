@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/layout"
@@ -8,15 +6,11 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <include
-        android:id="@+id/login_toolbar"
-        layout="@layout/toolbar_layout" />
 
     <TextView
         android:id="@+id/txtLoginAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_toolbar"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:text="@string/login_to_your_account"
@@ -127,7 +121,6 @@
         android:layout_marginTop="7dp"
         android:background="@drawable/border_with_blue_background"
         android:gravity="center"
-        android:onClick="onClickFb"
         android:padding="15dp">
 
         <com.facebook.login.widget.LoginButton
@@ -169,11 +162,11 @@
         android:text="@string/already_dont_have_ac"
         android:textColor="@color/black" />
 
-    <android.support.design.widget.CoordinatorLayout
+   <!-- <android.support.design.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+-->
 
 </RelativeLayout>
 

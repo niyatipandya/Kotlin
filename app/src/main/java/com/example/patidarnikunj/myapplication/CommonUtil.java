@@ -123,8 +123,7 @@ public class CommonUtil {
 
     public static void getFacebookSHA(Context context) {
         try {
-            PackageInfo info = context.getPackageManager().getPackageInfo(
-                    "com.daydate", PackageManager.GET_SIGNATURES); //Your package name here
+            PackageInfo info = context.getPackageManager().getPackageInfo("com.example.patidarnikunj.myapplication", PackageManager.GET_SIGNATURES); //Your package name here
             for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
                 md.update(signature.toByteArray());
