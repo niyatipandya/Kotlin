@@ -20,6 +20,9 @@
     <string name="password">Password</string>
     <string name="connect_with_facebook">Connect with facebook</string>
     <string name="something_wrong_happened">Oops! Something wrong happened</string>
+    <string name="no_internet">No Internet</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="please_enter_password">Please enter password</string>
 
     <!--Permission Message-->
     <string name="permission_enable_path">Enable permissions from\nSettings > Apps > Kindling > Permissions</string>
